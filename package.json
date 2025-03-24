@@ -1,0 +1,16 @@
+{
+  "name": "bot_w",
+  "version": "1.0.0",
+  "main": "robo.js",
+  "scripts": {
+    "start": "node ./src/chat-wpp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.36.1",
+    "firebase-admin": "^13.2.0"
+  }
+}
